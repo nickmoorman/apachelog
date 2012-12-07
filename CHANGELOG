@@ -1,0 +1,11 @@
+++Release 1.1 2007-04-19
+
+Applied patches provided Loïc Dachary, adding regex used to
+error message when parser is unable to parse a line as
+well as resetting the field name list, potentially allowing 
+the same object to be used to be reinitialized from a new
+format.
+
+See:
+http://code.google.com/p/apachelog/issues/detail?id=1
+http://code.google.com/p/apachelog/issues/detail?id=2
