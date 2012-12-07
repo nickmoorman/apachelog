@@ -6,7 +6,7 @@ from distutils.core import setup
 from distutils.dist import DistributionMetadata
 if not hasattr(DistributionMetadata,'classifiers'):
     DistributionMetadata.classifiers = None
-    
+
 setup(
     name = 'apachelog',
     version = '1.1',
@@ -27,8 +27,10 @@ in the log format.
 
 """,
     author='Harry Fuecks',
-    author_email = 'hfuecks@gmail.com',
-    url = 'http://code.google.com/p/apachelog',
+    author_email='hfuecks@gmail.com',
+    maintainer='Nick Moorman',
+    maintainer_email='nick@nickmoorman.com',
+    url = 'https://github.com/moormann/apachelog',
     license = "Artistic License / GPLv2",
     platforms = ['POSIX', 'Windows'],
     keywords = ['apache', 'log', 'parser'],
